@@ -6,6 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="bigdata-collect-entity" />
+        <module name="bigdata-collect-service" />
+        <module name="bigdata-collect-web" />
         <module name="thoth-ai-entity" />
         <module name="thoth-ai-service" />
         <module name="thoth-ai-web" />
@@ -28,7 +31,11 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="thoth" target="1.7" />
+      <module name="bigdata-collect" target="1.8" />
+      <module name="bigdata-collect-entity" target="1.8" />
+      <module name="bigdata-collect-service" target="1.8" />
+      <module name="bigdata-collect-web" target="1.8" />
+      <module name="thoth" target="1.5" />
       <module name="thoth-ai-entity" target="1.8" />
       <module name="thoth-ai-ms" target="1.8" />
       <module name="thoth-ai-service" target="1.8" />

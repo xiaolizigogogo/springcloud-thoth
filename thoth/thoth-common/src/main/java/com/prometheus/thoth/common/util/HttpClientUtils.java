@@ -67,6 +67,8 @@ public class HttpClientUtils {
         CloseableHttpClient client = HttpClientBuilder.create().build();
         try {
             HttpGet request = new HttpGet(url + appendParams(params));
+            request.setHeader("User-Agent","Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.84 Safari/537.36");
+            request.setHeader("Referer","http://zq.win007.com/big/League/2014-2015/36.html");
             setCookie(request, cookies);
             HttpResponse response = client.execute(request);
             return response;

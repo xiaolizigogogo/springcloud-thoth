@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/bigdata-collect/bigdata-collect.iml" filepath="$PROJECT_DIR$/bigdata-collect/bigdata-collect.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-collect/bigdata-collect-entity/bigdata-collect-entity.iml" filepath="$PROJECT_DIR$/bigdata-collect/bigdata-collect-entity/bigdata-collect-entity.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-collect/bigdata-collect-service/bigdata-collect-service.iml" filepath="$PROJECT_DIR$/bigdata-collect/bigdata-collect-service/bigdata-collect-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bigdata-collect/bigdata-collect-web/bigdata-collect-web.iml" filepath="$PROJECT_DIR$/bigdata-collect/bigdata-collect-web/bigdata-collect-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springcloud-thoth.iml" filepath="$PROJECT_DIR$/.idea/springcloud-thoth.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth/thoth.iml" filepath="$PROJECT_DIR$/thoth/thoth.iml" />
       <module fileurl="file://$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/thoth-ai-entity.iml" filepath="$PROJECT_DIR$/thoth-ai-ms/thoth-ai-entity/thoth-ai-entity.iml" />

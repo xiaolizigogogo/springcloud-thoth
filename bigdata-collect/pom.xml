@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <artifactId>thoth-parent</artifactId>
+        <groupId>com.prometheus</groupId>
+        <version>0.0.1-SNAPSHOT</version>
+    </parent>
+
+    <artifactId>bigdata-collect</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <name>bigdata-collect</name>
+    <description>bigdata-collect</description>
+
+    <modules>
+        <module>bigdata-collect-entity</module>
+        <module>bigdata-collect-service</module>
+        <module>bigdata-collect-web</module>
+    </modules>
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
+        <dependency>
+            <groupId>com.google.code.gson</groupId>
+            <artifactId>gson</artifactId>
+            <version>2.8.2</version>
+        </dependency>
+
+
+        <dependency>
+            <groupId>com.prometheus</groupId>
+            <artifactId>thoth-dependencies</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <optional>true</optional>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.springframework.boot</groupId>
+                    <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+    </dependencies>
+    <developers>
+        <developer>
+            <name>jml</name>
+            <email>jml</email>
+            <organization>prometheus</organization>
+        </developer>
+    </developers>
+
+</project>
